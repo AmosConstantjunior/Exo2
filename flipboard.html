@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flipboard</title>
+</head>
+<body>
+    
+       
+<div class="tout">
+           <div class="cadre1">
+               
+                        <div class="flip">
+
+                          <div class="front"><img src="image/ete.jpg" alt=""></div>
+                          <div class="back"><p>njhcjcncjddkidkii</p></div>
+                        </div>
+                </div>
+      
+
+                 <div class="cadre2">
+                            <div class="flip">
+
+                              <div class="front"><img src="image/automne.jpg" alt=""></div>
+                              <div class="back"><p>hhhjdfjdjcjcjcjj</p></div>
+                            </div>
+                </div>
+                <div class="cadre3">
+                                <div class="flip">
+                                  <div class="front"><img src="image/hiver.jpg" alt=""></div>
+                                  <div class="back"><p>bhcbncjcn,xcjkxc,xcjkkk</p></div>
+                                </div>
+                </div>
+                <div class="cadre4">
+                                    <div class="flip">
+                                      <div class="front"><img src="image/printemps.jpg" alt=""></div>
+                                      <div class="back"><p>hjjkcdidkdfkdfkclclclcfofk</p></div>
+                                    </div>
+                </div> 
+                     
+  </div>                       
+</body>
+</html>
+<!--parti css-->
+
+
+
+
+
+
+
+
+<!-- <style>
+html{
+  background-color: brown;
+  
+}
+.avant, .arriere {
+  width: 300px;
+  height: 500px;
+}
+.avant img{
+  width: 350px;
+  height: 500px;
+}
+.flip{
+  transform-style: preserve-3d;
+ position: absolute;
+  transform: rotateY(180deg);
+}
+.flip {
+  width: inherit;
+  height: inherit;
+  transition: transform 1s;
+} 
+.avant:hover .arriere{
+  transform: rotateY(180deg);
+}
+
+
+</style> -->
+
+ <style>
+   .tout{
+     display: flex;
+     margin-left: 300px;
+   }
+    body{
+        background-color: brown;
+       
+
+    }
+    .cadre1{
+        background-color: transparent;
+        width: 200px;
+        height: 300px;
+        perspective: 1000px;
+        
+        margin-top: 5%;
+    }
+    .cadre2,.cadre3,.cadre4 {
+      background-color: transparent;
+        width: 200px;
+        height: 300px;
+        perspective: 1000px;
+         margin-left: 25px;
+        margin-top: 5%;
+    }
+    img{
+      width: 100%;
+      height: 100%;
+    }
+    .cadre2 img, .cadre3 img, .cadre4 img,.cadre1 img{
+      width: 100%;
+      height: 100%;
+    }
+
+    .flip{
+      position: relative;
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      transition: transform 1s;
+      transform-style: preserve-3d; 
+    }
+    .cadre1:hover .flip{
+      transform: rotateY(180deg);
+    }
+    .cadre2:hover .flip{
+      transform: rotateY(180deg);
+    }
+    .cadre4:hover .flip{
+      transform: rotateY(180deg);
+    }
+    .cadre3:hover .flip{
+      transform: rotateY(180deg);
+    }
+    .front, .back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      
+    }
+    .cadre1 .back{
+      background: red;
+      transform: rotateY(180deg);
+
+    }
+    .cadre2 .back{
+      background: blue;
+      transform: rotateY(180deg);
+
+    }
+    .cadre3 .back{
+      background: green;
+      transform: rotateY(180deg);
+
+    }
+    .cadre4 .back{
+      background: orange;
+      transform: rotateY(180deg);
+
+    } 
+
+</style>

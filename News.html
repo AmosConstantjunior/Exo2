@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>News</title>
+</head>
+<body>
+    <nav class="tout">
+    <div class="haut">
+         <div class="ih1"><img src="image/paysage_1.webp" alt="">
+          <p id="para">bdghhjeyuejj</p> 
+        </div>
+         <div class="ih2"><img src="image/paysage_2.webp" alt="">
+            <p id="para2">khjsukkjjh</p>
+        </div>
+         <div class="ih3"><img src="image/paysage_3.webp" alt="">
+        <p id="para3">hjksjk</p>
+        </div>
+    </div>
+    <div class="milieu">
+            <div class="mi1"><img src="image/paysage_4.webp" alt=""><p id="para4">hsjhsjhgjhgs</p></div>
+            <div class="mi2"><img src="image/paysage_5.webp" alt=""><p id="para5">jhgsjjhjj</p></div>
+            <div class="mi3"><img src="image/paysage_6.webp" alt=""><p id="para6">jjhshjhjghjj</p></div>
+    </div>
+    <div class="bas">
+            <div class="ba1"><img src="image/paysage_7.webp" alt=""><p id="para7">vbnshjnjs,kjj</p></div>
+            <div class="ba2"><img src="image/paysage_8.webp" alt=""><p id="para8">hhskjkjk,,n,,</p></div>
+            <div class="ba3"><img src="image/paysage_9.webp" alt=""><p id="para9">jjdjdkjkjhsjjhsg</p></div>
+    </div>
+</nav>
+</body>
+</html>
+
+<style>
+    body{
+        background-color: black;
+    }
+    .tout{
+        margin-left: 50px;
+    }
+   
+   .haut, .milieu, .bas{
+       display: flex;
+       margin-top: 4%;
+   }
+   .milieu{
+       display: flex;
+       margin-top:25px;
+       
+   }
+    .bas{
+       display: flex;
+       margin-top: 25px;
+   }
+   /* haute */
+   .ih1{
+       border: 2px solid black;
+       height: 300px;
+       width: 300px;
+       margin-left: 100px;
+       
+       position: relative;
+       background-repeat: no-repeat; 
+        animation: movebg 3s linear;
+        animation-fill-mode: forwards;
+   }
+   .ih1 img{
+       width: 100%;
+       height: 100%;
+   }
+   .ih1 img:hover{
+    animation: bouge 3s linear;
+   }
+   .ih2{
+       margin-left: 25px;
+    border: 2px solid black;
+    width: 450px;
+    height: 300px;
+    position: relative;
+       
+    
+   }
+   .ih2 img{
+       width: 100%;
+       height: 100%;
+   }
+   .ih3{
+    margin-left: 25px;
+    border: 2px solid black; 
+    width: 500px;
+    height: 300px; 
+    position: relative;
+      
+    
+   }
+   .ih3 img{
+   height: 100%;
+   width: 100%;
+   }
+/* milieu */
+.mi1{
+    border: 2px solid black;
+    margin-left: 100px;
+    height: 300px;
+    width: 250px;
+    position: relative;
+    position: relative;
+       background-repeat: no-repeat; 
+        animation: movebg 3s linear;
+        animation-fill-mode: forwards;
+}
+.mi1 img{
+    height: 100%;
+    width: 100%;
+}
+.mi2{
+    border: 2px solid black;
+    margin-left: 25px;
+    height: 300px;
+    width: 600px;
+    
+    
+}
+.mi2  img{
+    height: 100%;
+    width: 100%;
+}
+.mi3{
+    border: 2px solid black;
+    margin-left: 25px;
+    height: 300px; 
+    width: 400px;
+    
+}
+.mi3 img{
+    height: 100%;
+    width: 100%;
+}
+/* bas */
+
+.ba1{
+    border: 2px solid black; 
+    margin-left: 100px;
+    height: 270px; 
+    width: 300px;
+    background-color: darkgray;
+    position: relative;
+       background-repeat: no-repeat; 
+        animation: movebg 3s linear;
+        animation-fill-mode: forwards;
+}
+.ba1 img{
+    height: 100%;
+    width: 100%;
+    
+}
+.ba2{
+    border: 2px solid black;
+    margin-left: 25px;
+    height: 270px; 
+    width: 350px;
+    background-color: coral;
+}
+.ba2 img{
+    height: 100%;
+    width: 100%;
+}
+.ba3{
+    border: 2px solid black;
+    margin-left: 25px;
+    height: 270px; 
+    width: 400px;
+    background-color: aqua;
+}
+.ba3 img{
+    height: 100%;
+    width: 100%;
+}
+/* text */
+#para{
+    text-align: center;
+    margin-top: 15px;
+   
+}
+#para2{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 50px;
+    margin-top: 45%;
+    /* display: none;  */
+
+}
+#para3{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 50px;
+    margin-top: 40%;
+    display: none;
+
+}
+#para4{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 50px;
+    margin-top: 80%;
+    display: none;
+
+}
+#para5{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 50px;
+    margin-top: 33%;
+    display: none;
+
+}
+#para6{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 50px;
+    margin-top: 50%;
+    display: none;
+
+}
+#para7{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 50px;
+    margin-top: 60%;
+    display: none;
+
+}
+#para8{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 50px;
+    margin-top: 52%;
+    display: none;
+
+}
+#para9{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 50px;
+    margin-top: 45%;
+    display: none;
+
+}
+/* hover */
+@keyframes movebg { 
+        0%{background-position-x: 0px; margin :0px;}
+        100%{background-position-x: -200px; margin:6px;}
+    } 
+    @keyframes bouge{
+        
+    }
+
+    
+</style>
+
